@@ -13,24 +13,29 @@ directory and add links to those images to the SUBMISSION.md file. The images yo
 - [x] 5 pts Your Travis CI dashboard showing a successful build after your change of the group
 ID.
     -![second_travis_ci_after_groupId_change](images/second_travis_ci_after_groupId_change.png)
-- [ ] 5 pts The section of the POM file showing the coordinates after you’ve commented them
+- [X] 5 pts The section of the POM file showing the coordinates after you’ve commented them
 out.
     -![comment_out-coords](images/comment_out_coords.png)
-- [ ] 5 pts Your Travis CI dashboard showing the unsuccessful build after the breaking change.
+- [X] 5 pts Your Travis CI dashboard showing the unsuccessful build after the breaking change.
     -![travis_ci_failed_build](images/travis_ci_failed_build.png)
-- [ ] 5 pts Your Github repository with the readme.md file selected showing the build failed
+- [X] 5 pts Your Github repository with the readme.md file selected showing the build failed
 status after the Travis CI build fails.
-    -![readme_build_error](images/readme_build_error.png)
+    - Local Repo [`readme.md`](readme.md) error
+      - ![readme_build_error](images/readme_build_error.png)
+    - Remote Repo [`readme.md`](https://github.com/merg13/spring-petclinic) error
+      - ![build_error_remote_repo_readme](images/build_error_remote_repo_readme.png)
 
-- [ ] 5 pts The section of the POM file showing the coordinates after you’ve fixed them.
+- [X] 5 pts The section of the POM file showing the coordinates after you’ve fixed them.
     -![fixed_pom_after_breaking](images/fixed_pom_after_breaking.png)
 
-- [ ] 5 pts Your Travis CI dashboard showing the successful build after the breaking change has
+- [x] 5 pts Your Travis CI dashboard showing the successful build after the breaking change has
 been fixed.
+    -![fixed_pom_again](images/fixed_pom_again.png)
 
-
-- [ ] 5 pts Your Github repository with the readme.md file selected showing the build success
+- [X] 5 pts Your Github repository with the readme.md file selected showing the build success
 status after the Travis CI build has recovered.
-
-
-- [ ] Submit a link to your repository in D2L. Make sure your Github repository is public.
+    - Local Repo [`readme.md`](readme.md)
+      - ![greenbuild_readme_again](images/greenbuild_readme_again.png)
+    - Remote Repo [`readme.me`](https://github.com/merg13/spring-petclinic)
+      - ![greenbuild_readme_again_remote](images/greenbuild_readme_again_remote.png)
+- [X] Submit a link to your repository in D2L. Make sure your Github repository is public.
