@@ -4,13 +4,13 @@ For this week, create a new SUBMISSION.md file in your repo. Add the images to a
 directory and add links to those images to the SUBMISSION.md file. The images you need are:
 
 
-- [ ] 5 pts Your Github account showing that is has been forked from the depaulcdm/springpetclinic repository.
+- [x] 5 pts Your Github account showing that is has been forked from the depaulcdm/springpetclinic repository.
     - ![fork_image](images/fork_image.png)
-- [ ] 5 pts Your Travis CI dashboard showing a successful first build.
-  
-- [ ] 5 pts The section of the POM file showing the coordinates after you’ve changed them.
-
-- [ ] 5 pts Your Travis CI dashboard showing a successful build after your change of the group
+- [x] 5 pts Your Travis CI dashboard showing a successful first build.
+    - ![first_travis_success](images/first_travis_ci_build_success.png)
+- [x] 5 pts The section of the POM file showing the coordinates after you’ve changed them.
+    - ![updated_pom](images/updated_pom.png)
+- [x] 5 pts Your Travis CI dashboard showing a successful build after your change of the group
 ID.
 
 - [ ] 5 pts The section of the POM file showing the coordinates after you’ve commented them
