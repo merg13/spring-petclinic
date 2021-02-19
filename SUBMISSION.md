@@ -12,7 +12,7 @@ directory and add links to those images to the SUBMISSION.md file. The images yo
     - ![updated_pom](images/updated_pom.png)
 - [x] 5 pts Your Travis CI dashboard showing a successful build after your change of the group
 ID.
-
+    -![second_travis_ci_after_groupId_change](images/second_travis_ci_after_groupId_change.png)
 - [ ] 5 pts The section of the POM file showing the coordinates after you’ve commented them
 out.
 
