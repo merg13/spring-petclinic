@@ -17,13 +17,13 @@ ID.
 out.
     -![comment_out-coords](images/comment_out_coords.png)
 - [ ] 5 pts Your Travis CI dashboard showing the unsuccessful build after the breaking change.
-  
+    -![travis_ci_failed_build](images/travis_ci_failed_build.png)
 - [ ] 5 pts Your Github repository with the readme.md file selected showing the build failed
 status after the Travis CI build fails.
-
+    -![readme_build_error](images/readme_build_error.png)
 
 - [ ] 5 pts The section of the POM file showing the coordinates after you’ve fixed them.
-
+    -![fixed_pom_after_breaking](images/fixed_pom_after_breaking.png)
 
 - [ ] 5 pts Your Travis CI dashboard showing the successful build after the breaking change has
 been fixed.
