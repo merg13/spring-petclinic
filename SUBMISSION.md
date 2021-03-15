@@ -1,3 +1,41 @@
+# Submission Document - HW8 - Mitchell Ergen
+## DOCKER
+
+- [x] 5 pts Your dockerfile. Please provide a link to this file rather than a screen capture.
+  - [See my Dockerfile here](./Dockerfile)
+- [x] 5 pts Your running docker instance as shown by a ps command.
+  - ![docker_build_run](./images/docker_build_run.png)
+- [x] 5 pts Your browser accessing the main page of the website from your local container.
+  - ![docker_running_petclinic](./images/docker_running_petclinic.png)
+## DOCKER COMPOSE - MYSQL ONLY
+
+- [x] 5 pts The output from the docker-compose up command.
+  - ![dc_1](./images/dc_1.png)
+  - ![dc_2](./images/dc_1.png)
+  - ![dc_3](./images/dc_1.png)
+- [x] 5 pts Your browser accessing the “Veterinarians” page of the website from your local container when you run the application from the host system.
+  - ![dc_vets](./images/dc_vets.png)
+- [x] 5 pts A section of the stack trace generated when you attempt to run the application
+container that has been updated to use MySQL.
+  - ![run_petclinic_local_001](images/run_petclinic_local_001.png)
+  - ![run_petclinic_local_002](images/run_petclinic_local_002.png)
+## DOCKER COMPOSE - APP SERVER AND MYSQL
+- [x] 5 pts Your updated docker-compose.yml file containing the application server, built from
+your local Dockerfile, and the existing MySQL configuration. Please provide a link
+to this file rather than a screen capture.
+  - [docker-compose.ymnl](./docker-compose.yml)
+- [x] 5 pts Your updated application-mysql.properties file containing the URL change for
+the database server. Please provide a link to this file rather than a screen capture.
+  - [application-mysql.properties](./src/main/resources/application-mysql.properties)
+- [x] 5 pts The output from the docker-compose up command.
+  - ![dc-both-1](images/dc_both_1.png)
+  - ![dc-both-2](images/dc_both_2.png)
+  - ![dc-both-3](images/dc_both_3.png)
+- [x] 5 pts Your browser accessing the “Veterinarians” page of the website from your local container.
+    ![run_petclinic_dc_vetpage](images/run_petclinic_dc_vetpage.png)
+---
+# END - HW8
+---
 # Submission Document - HW5 - Mitchell Ergen
 ---
 For this week, create a new SUBMISSION.md file in your repo. Add the images to a new figures
@@ -39,3 +77,5 @@ status after the Travis CI build has recovered.
     - Remote Repo [`readme.me`](https://github.com/merg13/spring-petclinic)
       - ![greenbuild_readme_again_remote](images/greenbuild_readme_again_remote.png)
 - [X] Submit a link to your repository in D2L. Make sure your Github repository is public.
+    - [Github link](https://github.com/merg13/spring-petclinic)
+
